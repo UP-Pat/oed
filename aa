@@ -1,0 +1,23 @@
+== ActIINoStanCandy ==
+~ MidtermPoints += 2
+<Stan>
+Well that’s no fun.
+
+<Hunter>
+Neither is remedial math, Stanley. Yet you still find yourself there completely by choice. Life gets better if you make choices that better your long-term well-being.
+
+*[(Continue)]
+    <Hunter>
+    Hey! That's... huh. I never thought of that. Sorry, I need to take a walk to rethink my life. Goodnight, dudes.
+    
+    **[Thanks.]
+        Nice job, {player_name}.
+        
+        ***[You too. Goodnight, Hunter.]
+            ->ActIIFinale
+
+    **[Why?]
+        Nice job, {player_name}.
+        
+        ***[You too. Goodnight, Hunter.]
+            ->ActIIFinale
